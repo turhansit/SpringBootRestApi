@@ -12,8 +12,6 @@ sp_result out number,
 sp_message out varchar)
 as
 begin 
-
 sp_result :=1;
 sp_message :='Hello, this my first Rest Api';
-
 end my_storded_procedure;
