@@ -20,7 +20,7 @@ public class ApiRepositories {
 	private EntityManager em;
 
 	public Object getData(@RequestParam ApiModel request) {
-		StoredProcedureQuery query = this.em.createNamedStoredProcedureQuery("mmkt-05");
+		StoredProcedureQuery query = this.em.createNamedStoredProcedureQuery("mysp");
 		query.setParameter("sp_account_nr", request.getAccountNumber());
 		query.setParameter("sp_contact_nr", request.getContractNumber());
 		query.setParameter("sp_old_maturity_action", request.getOldMaturityAction());
