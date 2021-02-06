@@ -1,4 +1,4 @@
-# SpringBootandRestApi
+# SpringBoot-RestApi
 I wrote Rest Api using Spring Boot and Oracle Stored Procedure.
 
 
