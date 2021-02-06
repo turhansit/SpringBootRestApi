@@ -15,3 +15,8 @@ begin
 sp_result :=1;
 sp_message :='Hello, this my first Rest Api';
 end my_storded_procedure;
+
+
+Rest Endpoint
+
+http://localhost:8080/api/v1/getdatasp
