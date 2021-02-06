@@ -20,7 +20,12 @@ sp_message :='Hello, this my first Rest Api';
 
 end my_storded_procedure;
 
+Update following properties in application.properties file
 
+oracle.username=APPS
+oracle.password=<PASSWORD>
+oracle.url=jdbc:oracle:thin:@<servername>:1521:<SID/SERVICENAME>
+  
 Rest Endpoint
 
 http://localhost:8080/api/v1/getdatasp
